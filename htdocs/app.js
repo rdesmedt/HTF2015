@@ -1,9 +1,15 @@
 'use strict';
 
-var express = require('express');
-var routes = require('./routes')
+var express = require('express'),
+    routes = require('./routes'),
+    bodyParser = require('body-parser');
 
 var app = express();
+
+app.set('views engine', 'jade');
+app.use(bodyParser.json());
+app.use('/img', express.static(__dirname + '/public/img'));
+app.use('/css', express.static(__dirname + '/public/css'));
 
 routes(app);
 
