@@ -1,0 +1,40 @@
+body {
+    background: url('../img/apocalypse.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.htf img {
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+}
+
+.banner {
+    margin: 2em 0;
+}
+
+.nodejs img {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    height: 40%;
+}
+
+.nodejs span {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    color: white;
+    font-family: fantasy;
+    font-size: 2em;
+}
