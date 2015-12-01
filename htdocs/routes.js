@@ -1,5 +1,6 @@
 var home = require('./home/home');
 var member = require('./member/member');
+var quiz = require('./quiz/quiz')
 
 module.exports = function(app) {
 
@@ -8,4 +9,6 @@ module.exports = function(app) {
   app.get('/member/list', member.getMemberList);
 
   app.post('/member/registration', member.postRegistration);
+
+  app.get('/quiz', quiz.getIndex);
 };
