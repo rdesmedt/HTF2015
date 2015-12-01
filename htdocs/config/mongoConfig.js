@@ -1,5 +1,5 @@
 module.exports = {
   db:{
-    development: "mongodb://localhost/HTF2015"
+    development: "mongodb://localhost:3500/HTF2015"
   }
 };
