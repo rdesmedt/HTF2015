@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title HTF2015 NodeJS
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    .register
+      form(name='memberReg' action='/member/registration' method='POST')
+        label(for='name') Name
+        input(type='text' name='name' id='name')
+        input(type='submit' value='Register')
